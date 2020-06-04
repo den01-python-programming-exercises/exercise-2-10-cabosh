@@ -13,6 +13,7 @@ def main():
             total = total + number
         elif number == 0:
             print(f"The sum of the numbers is {total}.")
+            break
 
 if __name__ == '__main__':
     main()
